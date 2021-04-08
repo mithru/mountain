@@ -68,6 +68,7 @@ AFRAME.registerComponent('dashboard-item', {
     }
     this.hoveredOff = () => {
       this.infoBtn.style.visibility = "hidden"
+      this.portalOverlay.style.visibility = "visible"
 
       this.camera.setAttribute('look-controls', 'enabled', true);
 
