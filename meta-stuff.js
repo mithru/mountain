@@ -67,7 +67,7 @@ AFRAME.registerComponent('meta-stuff', {
         this.portalReform.style.visibility = "visible"
 
         // change this in the end
-        this.portalOverlay.style.visibility = "hidden"
+        this.portalOverlay.style.visibility = "visible"
 
         this.envWalls.object3D.visible = false;
         this.reverseWall.setAttribute('animation' , 'property: position; to: 0 0 10; easing: easeInOutQuad; loop: false; dur: 3000')
